@@ -42,11 +42,11 @@
    
 
   <!-- device tree, kernel -->
-  <!--<project name="platform-kernel-oneplus-msm8998" path="kernel/oneplus/msm8998" remote="aosp-caf" revision="lineage-16.0" />-->
-  <project name="platform-device-oneplus-msm8998-common" path="device/oneplus/msm8998-common" remote="aosp-caf" />
-  <project name="platform-device-oneplus-cheeseburger" path="device/oneplus/cheeseburger" remote="aosp-caf" />
-  <project name="platform-vendor-oneplus-op5" path="vendor/oneplus" remote="aosp-caf" />
-  <project name="platform-vendor-custom" path="vendor/custom" remote="aosp-caf" />
+  <!--<project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8998" remote="github" revision="lineage-16.0" />-->
+  <project name="LineageOS/android_device_leeco_msm8996-common" path="device/leeco/msm8996-common" remote="github" />
+  <project name="LineageOS/android_device_leeco_zl1" path="device/leeco/zl1" remote="github" />
+  <project name="LineageOS/android_kernel_leeco_msm8996" path="kernel/leeco/msm8996" remote="github" />
+  <project name="TheMuppets/proprietary_vendor_leeco" path="vendor/leeco" remote="github" />
   
   <project name="ThankYouMario/proprietary_vendor_qcom_sdclang-6.0_linux-x86" path="vendor/qcom/sdclang-6.0/linux-x86" remote="github" revision="pie" />
 </manifest>
